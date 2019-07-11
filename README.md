@@ -11,7 +11,7 @@
         $ docker run seminario1
 4. Para acceder al bash de la imagen
 
-        $ docker run -it seminario1 /bash/bin
+        $ docker run -it seminario1 /bin/bash
 5. Para pasar una carpeta del host y correr el programa
 
         $ docker run -v \$PWD:/opt seminario1 /bin/bash -c "python /opt/app.py"
